@@ -1,0 +1,13 @@
+
+<view class="top">
+ <image class="img" src='../../images/lx.jpg'></image>
+</view>
+
+<view class="wrap">
+  <view class="name">
+    我叫李璇
+  </view>
+ <view class="word">
+  退役小仙女，嗜酒如命，喜怒无常
+ </view>
+</view>

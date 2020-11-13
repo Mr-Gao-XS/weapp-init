@@ -1,0 +1,35 @@
+page {
+  background: fff;
+}
+.top {
+  height: 500rpx;
+  background: #fed23b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 250rpx;
+  height: 250rpx;
+  border-radius: 50%;
+  display: block;
+  border: 15rpx solid rgba(255, 255, 255, 0.3);
+}
+
+.wrap {
+  width: 600rpx;
+  margin: 0 auto;
+}
+
+.name {
+  margin-top: 30rpx;
+  font-size: 50rpx;
+  line-height: 100rpx;
+}
+
+.word  {
+  font-size: 30rpx;
+  color: #747474;
+  line-height: 50px;
+}
