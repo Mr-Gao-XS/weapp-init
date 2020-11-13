@@ -1,0 +1,2 @@
+# weapp-init
+weapp
