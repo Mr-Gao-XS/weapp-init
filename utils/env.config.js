@@ -6,13 +6,13 @@ let APP_ENV_TYPE = __wxConfig.envVersion
 
 if (APP_ENV_TYPE == 'develop') {
   // 开发版
-  API_BASE_URl = 'https://api-test.baidu.com'
+  API_BASE_URl = 'https://mock.yonyoucloud.com/mock/16185'
 } else if (APP_ENV_TYPE == 'trial') {
   // 体验版
-  API_BASE_URl = 'https://api-exp.baidu.com'
+  API_BASE_URl = 'https://mock.yonyoucloud.com/mock/16185'
 } else if (APP_ENV_TYPE == 'release') {
   // 正式版
-  API_BASE_URl = 'https://api-prod.baidu.com'
+  API_BASE_URl = 'https://mock.yonyoucloud.com/mock/16185'
 }
 
 const ENV_CONFIG = {

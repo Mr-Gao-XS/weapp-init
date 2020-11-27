@@ -1,12 +1,23 @@
 page {
-  background: fff;
+  background: #2a2e33;
 }
 .top {
-  height: 500rpx;
-  background: #fed23b;
+  padding-top: 170rpx;
+  padding-bottom: 30rpx;
+  line-height: 100rpx;
   display: flex;
+  font-size: 30px;
   justify-content: center;
   align-items: center;
+  color: #fff;
+}
+.line {
+  width: 100rpx;
+  height: 8rpx;
+  background-color: #ffc443;
+  margin: 0 auto;
+  border-radius: 4rpx;
+  margin-bottom: 50rpx;
 }
 
 .img {
@@ -18,18 +29,34 @@ page {
 }
 
 .wrap {
-  width: 600rpx;
+  width: 700rpx;
+  background: #fff;
   margin: 0 auto;
+  display: flex ;
+  justify-content: space-between;
+  height: 250rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+  margin-bottom: 30rpx;
+}
+.left {
+  width: 300rpx;
+  height: 250rpx;
+}
+.right {
+  width: 400rpx;
+  box-sizing: border-box;
+  padding: 40rpx 30rpx 0 30rpx;
 }
 
 .name {
-  margin-top: 30rpx;
   font-size: 50rpx;
-  line-height: 100rpx;
+  margin-bottom: 10rpx;
+  letter-spacing: 3rpx;
 }
 
 .word  {
-  font-size: 30rpx;
+  font-size: 26rpx;
   color: #747474;
-  line-height: 50px;
+ line-height: 40rpx;
 }

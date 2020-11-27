@@ -1,13 +1,18 @@
+<view class="top">F2E风云榜 TOP9</view>
+<view class="line"></view>
 
-<view class="top">
- <image class="img" src='../../images/lx.jpg'></image>
+<view class="wrap">
+  <image class="left" src="../../images/lx.jpg"></image>
+  <view class="right">
+    <view class="name">李璇 Echo</view>
+    <view class="word">vue高级狂暴工程师，喜怒无常，嗜酒如命，退役小仙女。</view>
+  </view>
 </view>
 
 <view class="wrap">
-  <view class="name">
-    我叫李璇
+  <image class="left" src="../../images/wq.jpg"></image>
+  <view class="right">
+    <view class="name">吴琼</view>
+    <view class="word">vue中级工程师，无欲无求，唯爱吃蛙。</view>
   </view>
- <view class="word">
-  退役小仙女，嗜酒如命，喜怒无常
- </view>
 </view>

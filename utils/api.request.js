@@ -1,9 +1,7 @@
 
 // 小程序 Promise 封装 wx.request
 
-import {
-  API_BASE_URl
-} from './env.config'
+import ENV_CONFIG from './env.config'
 
 class Http {
 
@@ -37,12 +35,15 @@ class Http {
         dataType: 'json',
         responseType: 'text',
         success: res => {
+          console.log(1)
           resolve(res)
         },
         fail: res => {
+          console.log(2)
           reject(res)
         },
         complete: res => {
+          console.log(3)
           wx.hideLoading()
         }
       })
@@ -51,8 +52,12 @@ class Http {
 }
 
 const ajax = new Http({
-  baseURL: API_BASE_URl
+  baseURL: ENV_CONFIG.API_BASE_URl
 })
 
 export default ajax
+
+export const getCatList = () => {
+  return ajax.get('/catList')
+}
 
